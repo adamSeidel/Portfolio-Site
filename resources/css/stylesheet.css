@@ -5,6 +5,7 @@ body {
     color: #323232;
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 p {
@@ -48,37 +49,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-.about-me-container {
-    display: flex;
-}
-
-#about-me-title {
-    margin: 0 0 12px 0;
-}
-
-main article {
-    flex-grow: 2;
-}
-
-main aside {
-    flex-grow: 1;
-}
-
-#profileImage {
-    width: 300px;
-    border: 3px solid #323232;
-    border-radius: 12px;
-}
-
-.skills-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.fa-brands {
-    font-size: 3.5rem;
-}
-
 footer {
     text-align: center;
     padding: 12px 0;
@@ -86,8 +56,4 @@ footer {
 
 #heart {
     color: red;
-}
-
-.about-me-text-container {
-    margin-right: 16px;
 }
