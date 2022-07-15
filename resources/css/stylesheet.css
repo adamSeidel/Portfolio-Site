@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@700&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #323232;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1.5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #323232;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+#about-me-title {
+    margin: 0 0 12px 0;
+}
+
+main article {
+    flex-grow: 2;
+}
+
+main aside {
+    flex-grow: 1;
+}
+
+#profileImage {
+    width: 300px;
+    border: 3px solid #323232;
+    border-radius: 12px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-brands {
+    font-size: 3.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0;
+}
+
+#heart {
+    color: red;
+}
+
+.about-me-text-container {
+    margin-right: 16px;
+}
