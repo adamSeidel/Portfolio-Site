@@ -7,7 +7,6 @@ body {
 }
 
 .container {
-    height: 100vh;
     width: 100%;
 
     display: grid;
@@ -17,7 +16,8 @@ body {
     padding: 10px;
     box-sizing: border-box;
 
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
 }
 
 .title {
@@ -87,6 +87,7 @@ body {
 .skills-container {
     display: flex;
     justify-content: space-evenly;
+    margin: 16px 0;
 }
 
 .fa-brands {
@@ -102,15 +103,17 @@ body {
 }
 
 .footer {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    position: fixed;
 
-    grid-row-start: 5;
-    grid-row-end: 6;
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
 
     text-align: center;
 
-    margin-top: auto;
+    padding-bottom: 10px;
 }
 
 #heart {
