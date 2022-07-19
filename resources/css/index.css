@@ -1,23 +1,87 @@
-.about-me-container {
+body {
+    margin: 0;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+
+    
+}
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 3; 
+
     display: flex;
+
+    align-items: center;
 }
 
-#about-me-title {
-    margin: 0 0 12px 0;
+.nav {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-end;
 }
 
-main article {
-    flex-grow: 2;
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-main aside {
-    flex-grow: 1;
+.nav ul li {
+    display: inline;
+    
+    font-weight: 600;
+
+    margin: 8px;
 }
 
-#profileImage {
-    width: 300px;
-    border: 3px solid #323232;
+.about-me {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.profile-photo {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.profile-photo img {
+    width: 100%;
+
     border-radius: 12px;
+}
+
+.skills {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 .skills-container {
@@ -29,6 +93,27 @@ main aside {
     font-size: 3.5rem;
 }
 
-.about-me-text-container {
-    margin-right: 16px;
+.contact {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+    text-align: center;
+
+    margin-top: auto;
+}
+
+#heart {
+    color: red;
+}
+

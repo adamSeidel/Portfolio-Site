@@ -2,49 +2,53 @@
 <html>
     <head>
         <title>Adam Seidel</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
         <link rel="stylesheet" href="./resources/css/stylesheet.css">
         <link rel="stylesheet" href="./resources/css/index.css">
         <script src="https://kit.fontawesome.com/9db522a941.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta chraset="'utf-8">
     </head>
+
     <body>
-        <header>
-            <h1 id="logo">Adam Seidel</h1>
-            <nav>
+        <div class="container">
+            <div class="title">
+                <h1>Adam Seidel</h1>
+            </div>
+
+            <div class="nav">
                 <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact Me</a></li>
+                    <li>About Me</li>
+                    <li>Portfolio</li>
+                    <li>Contact Me</li>
                 </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="about-me">
-                <div class="about-me-container">
-                    <div class="about-me-text-container">
-                        <h2 id="about-me-title">About Me</h2>
-                        <article>
-                            <p>
-                                Hi! I'm Adam Seidel, a Harrogate based Computer Scientist currently studying for my undergraduate degree at Durham University.
-                            </p>
-                            <p>
-                                I am currently working on various projects which you can find on my <a href="">portfolio page></a> and also on my GitHub. Any feedback that you might have is allways appreciated.
-                            </p>
-                            <p>  
-                                My resumue is avilable to view and
-                            </p>
-                            <p>    
-                                Fun fact! I've been programing for 6,519,611,105 seconds!</p>
-                            </p>
-                    </div>
-                    <aside>
-                        <img id="profileImage" src="./resources/images/portfolio_photo.jpg" alt="photo of me">
-                    </aside>
-                </div>
-            </section>
-            <section id="skills">
+            </div>
+
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>
+                    Hi! I'm Adam Seidel, a Harrogate based Computer Scientist currently studying for my undergraduate degree at Durham University.
+                </p>
+
+                <p>
+                    I am currently working on various projects which you can find on my <a href="">portfolio page</a> and also on my GitHub. Any feedback that you might have is allways appreciated.
+                </p>
+
+                <p>  
+                    My resumue is avilable to view and
+                </p>
+
+                <p>    
+                    Fun fact! I've been programing for 6,519,611,105 seconds!</p>
+                </p>
+            </div>
+
+            <div class="profile-photo">
+                <img src="./resources/images/portfolio_photo.jpg">
+            </div>
+
+            <div class="skills">
                 <h2>Skills</h2>
+
                 <div class="skills-container">
                     <i class="fa-brands fa-html5"></i>
                     <i class="fa-brands fa-css3-alt"></i>
@@ -54,9 +58,13 @@
                     <i class="fa-brands fa-git"></i>
                     <i class="fa-brands fa-chrome"></i>
                 </div>
-            </section>
-        </main>
+            </div>
 
-        <footer>Made with <span id="heart">♥</span> in Yorkshire</footer>
+            <div class="contact">
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="footer">Made with <span id="heart">♥</span> in Yorkshire</div>
+        </div>
     </body>
 </html>
