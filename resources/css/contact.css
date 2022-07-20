@@ -8,15 +8,6 @@
     box-sizing: border-box;
 }
 
-.nav-container {
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-}
-
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -51,4 +42,14 @@
     text-align: center;
 
     padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-container {
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+    }
 }
