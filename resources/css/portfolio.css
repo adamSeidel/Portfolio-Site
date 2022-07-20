@@ -1,0 +1,76 @@
+/* Generic CSS for all screen sizes */
+.container {
+    width: 100%;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.nav-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    
+    font-weight: 600;
+
+    margin: 8px;
+}
+
+#current-page {
+    color: blue;
+}
+
+.projects-container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-tile {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+}
+
+#heart {
+    color: red;
+}
+
+.footer {
+    position: fixed;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    padding-bottom: 10px;
+}
