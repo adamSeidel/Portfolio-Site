@@ -1,2 +1,4 @@
 # Portfolio-Site
- My portfolio site
+A git hub containing the code for my personal website.
+
+
