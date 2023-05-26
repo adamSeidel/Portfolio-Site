@@ -1,6 +1,6 @@
 const timeContainer = document.getElementById("time-container");
-    const START_DAY = "02-29-2012";
-    const START_DAY_DATE = new Date(START_DAY);
+const START_DAY = "2012-02-29";
+const START_DAY_DATE = new Date(START_DAY);
     const intlNumberFormatter = new Intl.NumberFormat("en-US");
 
     setInterval(() => {
